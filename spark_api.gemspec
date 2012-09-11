@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
   s.default_executable = %q{spark_api}
   s.require_paths      = ["lib"]
   
-  s.add_dependency 'faraday', '~> 0.8.1'
+  s.add_dependency 'faraday', '~> 0.6.1'
   s.add_dependency 'multi_json', '~> 1.0'
   s.add_dependency 'json', '~> 1.7'
   s.add_dependency 'yajl-ruby', '~> 1.1.0'
